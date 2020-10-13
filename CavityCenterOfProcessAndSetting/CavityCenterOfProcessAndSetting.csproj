@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C200F01C-AFAB-4AF8-9BD2-9C71B66E57F9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CavityCenterOfProcessAndSetting</RootNamespace>
+    <AssemblyName>CavityCenterOfProcessAndSetting</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMainSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMainSetting.Designer.cs">
+      <DependentUpon>frmMainSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOperatorChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOperatorChange.Designer.cs">
+      <DependentUpon>frmOperatorChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSerialChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSerialChange.Designer.cs">
+      <DependentUpon>frmSerialChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSystemSpecSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSystemSpecSetting.Designer.cs">
+      <DependentUpon>frmSystemSpecSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductSpec\frmProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProductSpec\frmProcess.Designer.cs">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductSpec\frmProductSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProductSpec\frmProductSetting.Designer.cs">
+      <DependentUpon>frmProductSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductSpec\frmProductSpecManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProductSpec\frmProductSpecManage.Designer.cs">
+      <DependentUpon>frmProductSpecManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductSpec\Processes\frmResonatorTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProductSpec\Processes\frmResonatorTest.Designer.cs">
+      <DependentUpon>frmResonatorTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemSpec\Common\frmSystemCommon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SystemSpec\Common\frmSystemCommon.Designer.cs">
+      <DependentUpon>frmSystemCommon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemSpec\frmSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SystemSpec\frmSystem.Designer.cs">
+      <DependentUpon>frmSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemSpec\frmSystemManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SystemSpec\frmSystemManage.Designer.cs">
+      <DependentUpon>frmSystemManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemSpec\Specific\frmSystemSpecificPurchaseProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SystemSpec\Specific\frmSystemSpecificPurchaseProcess.Designer.cs">
+      <DependentUpon>frmSystemSpecificPurchaseProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SystemSpec\Specific\frmSystemSpecificPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SystemSpec\Specific\frmSystemSpecificPurchase.Designer.cs">
+      <DependentUpon>frmSystemSpecificPurchase.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMainSetting.resx">
+      <DependentUpon>frmMainSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOperatorChange.resx">
+      <DependentUpon>frmOperatorChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSerialChange.resx">
+      <DependentUpon>frmSerialChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSystemSpecSetting.resx">
+      <DependentUpon>frmSystemSpecSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProductSpec\frmProcess.resx">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProductSpec\frmProductSetting.resx">
+      <DependentUpon>frmProductSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProductSpec\frmProductSpecManage.resx">
+      <DependentUpon>frmProductSpecManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProductSpec\Processes\frmResonatorTest.resx">
+      <DependentUpon>frmResonatorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SystemSpec\Common\frmSystemCommon.resx">
+      <DependentUpon>frmSystemCommon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SystemSpec\frmSystem.resx">
+      <DependentUpon>frmSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SystemSpec\frmSystemManage.resx">
+      <DependentUpon>frmSystemManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SystemSpec\Specific\frmSystemSpecificPurchaseProcess.resx">
+      <DependentUpon>frmSystemSpecificPurchaseProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SystemSpec\Specific\frmSystemSpecificPurchase.resx">
+      <DependentUpon>frmSystemSpecificPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\production.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\04.CommonFL\02.PreMaking\Input%28Beta%29\Input\Code\InputManagement\InputManagement.csproj">
+      <Project>{efa9c6b9-12d4-458e-a5a8-89a28a33cec0}</Project>
+      <Name>InputManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\04.CommonFL\BusinessData\BusinessData\BusinessData.csproj">
+      <Project>{d427dc7f-243e-422f-a73c-4a2bbaeb5012}</Project>
+      <Name>BusinessData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\04.CommonFL\CommonClassLibrary\CommonClassLibrary\CommonClassLibrary.csproj">
+      <Project>{CF191309-162C-4E7E-A4B7-9C1E040AB4A3}</Project>
+      <Name>CommonClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\04.CommonFL\FFT.CustomUIClassLibrary\CustomUIClassLibrary\CustomUIClassLibrary.csproj">
+      <Project>{e927cbd6-5446-4ae7-9510-48593ad43cc8}</Project>
+      <Name>CustomUIClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ResonatorTestManagement\ResonatorTestManagement.csproj">
+      <Project>{8BDF35CC-8C58-4C89-A824-87A0EA1EBD17}</Project>
+      <Name>ResonatorTestManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CavityMachineSettingManagement\CavityMachineSettingManagement.csproj">
+      <Project>{556566f3-9776-4d74-a585-f9ec8e0f4e2e}</Project>
+      <Name>CavityMachineSettingManagement</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

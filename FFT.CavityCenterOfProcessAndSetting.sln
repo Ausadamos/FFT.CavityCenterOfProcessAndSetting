@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CavityCenterOfProcessAndSetting", "CavityCenterOfProcessAndSetting\CavityCenterOfProcessAndSetting.csproj", "{C200F01C-AFAB-4AF8-9BD2-9C71B66E57F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomUIClassLibrary", "..\..\04.CommonFL\FFT.CustomUIClassLibrary\CustomUIClassLibrary\CustomUIClassLibrary.csproj", "{E927CBD6-5446-4AE7-9510-48593AD43CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClassLibrary", "..\..\04.CommonFL\CommonClassLibrary\CommonClassLibrary\CommonClassLibrary.csproj", "{CF191309-162C-4E7E-A4B7-9C1E040AB4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessData", "..\..\04.CommonFL\BusinessData\BusinessData\BusinessData.csproj", "{D427DC7F-243E-422F-A73C-4A2BBAEB5012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputManagement", "..\..\04.CommonFL\02.PreMaking\Input(Beta)\Input\Code\InputManagement\InputManagement.csproj", "{EFA9C6B9-12D4-458E-A5A8-89A28A33CEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CavityMachineSettingManagement", "CavityMachineSettingManagement\CavityMachineSettingManagement.csproj", "{556566F3-9776-4D74-A585-F9EC8E0F4E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResonatorTestManagement", "..\ResonatorTestManagement\ResonatorTestManagement.csproj", "{8BDF35CC-8C58-4C89-A824-87A0EA1EBD17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C200F01C-AFAB-4AF8-9BD2-9C71B66E57F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C200F01C-AFAB-4AF8-9BD2-9C71B66E57F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C200F01C-AFAB-4AF8-9BD2-9C71B66E57F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C200F01C-AFAB-4AF8-9BD2-9C71B66E57F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E927CBD6-5446-4AE7-9510-48593AD43CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E927CBD6-5446-4AE7-9510-48593AD43CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E927CBD6-5446-4AE7-9510-48593AD43CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E927CBD6-5446-4AE7-9510-48593AD43CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF191309-162C-4E7E-A4B7-9C1E040AB4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF191309-162C-4E7E-A4B7-9C1E040AB4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF191309-162C-4E7E-A4B7-9C1E040AB4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF191309-162C-4E7E-A4B7-9C1E040AB4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D427DC7F-243E-422F-A73C-4A2BBAEB5012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D427DC7F-243E-422F-A73C-4A2BBAEB5012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D427DC7F-243E-422F-A73C-4A2BBAEB5012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D427DC7F-243E-422F-A73C-4A2BBAEB5012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA9C6B9-12D4-458E-A5A8-89A28A33CEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA9C6B9-12D4-458E-A5A8-89A28A33CEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA9C6B9-12D4-458E-A5A8-89A28A33CEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA9C6B9-12D4-458E-A5A8-89A28A33CEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556566F3-9776-4D74-A585-F9EC8E0F4E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556566F3-9776-4D74-A585-F9EC8E0F4E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556566F3-9776-4D74-A585-F9EC8E0F4E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556566F3-9776-4D74-A585-F9EC8E0F4E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDF35CC-8C58-4C89-A824-87A0EA1EBD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDF35CC-8C58-4C89-A824-87A0EA1EBD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDF35CC-8C58-4C89-A824-87A0EA1EBD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDF35CC-8C58-4C89-A824-87A0EA1EBD17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE7AC966-F591-4EB4-9D99-5ABE63ED9DCF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CavityCenterOfProcessAndSetting.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PROGRAM_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CAVITY PROGRAM</Value>
+    </Setting>
+    <Setting Name="PROGRAM_VERSION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VER.1.0.0</Value>
+    </Setting>
+    <Setting Name="PRODUCT_SUB_CODE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PDS-0001</Value>
+    </Setting>
+    <Setting Name="MAX_VOLTAGE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="MIN_VOLTAGE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
